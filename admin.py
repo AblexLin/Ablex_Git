@@ -361,14 +361,4 @@ if __name__ == "__main__":
     """参数1为'startpunggol时启动punggol，否则启动punggol-admin'"""
     if 1 < len(sys.argv) and 'startpunggol' == sys.argv[1]:
         base_default_path, sys_default_path = utils.get_default_punggol_path2()
-        if base_default_path != '' and sys_default_path != '':
-            run.run_punggol(base_default_path, sys_default_path)
-        else:
-            print('请确保程序已正常安装')
-            exit(-1)
-    else:
-        app = QtWidgets.QApplication(sys.argv)
-        QFontDatabase.addApplicationFont("/usr/share/fonts/truetype/droid/DroidSansFallbackFull.ttf")
-        dlg = AdminDialog()
-        dlg.setWindowIcon(QIcon(":/admin_icon"))
-        dlg.exec_()
+        if base_default_path != '' and s       QFontDatabase.addApplicationFont("/usr/share/fonts/truetype/droid/DroidS
