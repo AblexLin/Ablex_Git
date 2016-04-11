@@ -18,6 +18,7 @@ rm                -- 删除文件
 git add .         -- 将所有的修改都提交到stage
 ssh-keygen -t rsa -C "youremail@example.com" -- 创建SSH key
 git push origin master -- 更新推送到github
+git clone git@github.com:AblexLin/Ablex_Git.git 从远程仓库拷贝到本地
 /******************************************************************************/
 版本回退
 git reset --hard HEAD^
