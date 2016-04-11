@@ -15,14 +15,18 @@ git log --pretty=oneline 单行显示日志
 git reflog        -- 查看所有的行为
 cat file          -- 查看文件内容
 git diff HEAD -- file -- 查看当前版本和服务器最新版本的差异 
-/******************************/
-版本回退                    ***
-git reset --hard HEAD^      ***
-git reset --hard HEAD^^^    ***
-git reset --hard HEAD~100   ***
-git reset --hard commit_id  ***
-/******************************/
-
+/******************************************************************************/
+版本回退
+git reset --hard HEAD^
+git reset --hard HEAD^^^
+git reset --hard HEAD~100
+git reset --hard commit_id
+撤销修改
+git checkout -- file
+1.文件没有被add打时候执行，文件会被还原
+2.文件已经被add但是还没有commit的时候执行，需要先执行git reset HEAD file将文件从
+stage中退回到本地，再执行git checkout -- file就能够撤销修改了
+/*****************************************************************************/
 ***************************************/
 /--------分--------隔--------符--------/
 /**************************************
