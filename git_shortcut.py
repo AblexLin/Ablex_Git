@@ -13,7 +13,7 @@ git status        -- 查看当前仓库的状态
 git log           -- 查看日志  /* git log --pretty=oneline 单行显示日志*/
 git reflog        -- 查看所有的行为
 cat file          -- 查看文件内容
-
+git diff HEAD -- 
 /******************************/
 版本回退                    ***
 git reset --hard HEAD^      ***
