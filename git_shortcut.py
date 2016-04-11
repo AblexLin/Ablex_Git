@@ -4,4 +4,3 @@ git init          -- 创建git目录仓库
 ls －ah           -- 查看含有.的文件夹等方式
 git add           -- 将文件添加到仓库中
 git commit -m ""  -- 将文件提交到仓库并添加注释
-
