@@ -1,4 +1,5 @@
-
+git@github.com:AblexLin/Ablex_Git.git
+https://github.com/AblexLin/Ablex_Git.git
 --http://www.liaoxuefeng.com--by Ablex.Gu
 /**************************************
 *** git 常用快捷命令***
