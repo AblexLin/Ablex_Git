@@ -15,6 +15,8 @@ git log --pretty=oneline 单行显示日志
 git reflog        -- 查看所有的行为
 cat file          -- 查看文件内容
 git diff HEAD -- file -- 查看当前版本和服务器最新版本的差异 
+rm                -- 删除文件
+git add .         -- 将所有的修改都提交到stage
 /******************************************************************************/
 版本回退
 git reset --hard HEAD^
