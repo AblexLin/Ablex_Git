@@ -1,6 +1,4 @@
-git@github.com:AblexLin/Ablex_Git.git
-https://github.com/AblexLin/Ablex_Git.git
---http://www.liaoxuefeng.com--by Ablex.Gu
+
 /**************************************
 *** git 常用快捷命令***
 mkdir             -- 创建一个文件夹
@@ -18,6 +16,7 @@ cat file          -- 查看文件内容
 git diff HEAD -- file -- 查看当前版本和服务器最新版本的差异 
 rm                -- 删除文件
 git add .         -- 将所有的修改都提交到stage
+ssh-keygen -t rsa -C "youremail@example.com" -- 创建SSH key
 /******************************************************************************/
 版本回退
 git reset --hard HEAD^
