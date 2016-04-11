@@ -16,7 +16,7 @@ git reflog        -- 查看所有的行为
 git reset --hard HEAD^      ***
 git reset --hard HEAD^^^    ***
 git reset --hard HEAD~100   ***
-git reset --hard (commit id)***
+git reset --hard commit_id  ***
 /******************************/
 
 ***************************************/
