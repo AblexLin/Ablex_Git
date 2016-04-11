@@ -10,10 +10,11 @@ git add           -- 将文件添加到仓库中
 git commit -m ""  -- 将文件提交到仓库并添加注释
 git diff          -- 查看当前文件的变化
 git status        -- 查看当前仓库的状态
-git log           -- 查看日志  /* git log --pretty=oneline 单行显示日志*/
+git log           -- 查看日志  
+git log --pretty=oneline 单行显示日志
 git reflog        -- 查看所有的行为
 cat file          -- 查看文件内容
-git diff HEAD -- 
+git diff HEAD -- file -- 查看当前版本和服务器最新版本的差异 
 /******************************/
 版本回退                    ***
 git reset --hard HEAD^      ***
