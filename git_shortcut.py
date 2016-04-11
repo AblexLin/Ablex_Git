@@ -1,3 +1,5 @@
+
+--http://www.liaoxuefeng.com--by Ablex.Gu
 /**************************************
 *** git 常用快捷命令***
 mkdir             -- 创建一个文件夹
@@ -10,6 +12,7 @@ git diff          -- 查看当前文件的变化
 git status        -- 查看当前仓库的状态
 git log           -- 查看日志  /* git log --pretty=oneline 单行显示日志*/
 git reflog        -- 查看所有的行为
+cat file          -- 查看文件内容
 
 /******************************/
 版本回退                    ***
