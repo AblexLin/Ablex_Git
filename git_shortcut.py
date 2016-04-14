@@ -19,6 +19,13 @@ git add .         -- 将所有的修改都提交到stage
 ssh-keygen -t rsa -C "youremail@example.com" -- 创建SSH key
 git push origin master -- 更新推送到github
 git clone git@github.com:AblexLin/Ablex_Git.git 从远程仓库拷贝到本地
+
+git checkout -b filename -- 新建分支并切换到对应分支可以使用git branch/git status查看分支指向
+  git branch branchname 创建分支
+  git checkout branchname 切换到分支
+git merge branchname  -- 合并分支到master上面去
+git branch -d branchname -- 删除分支
+
 /******************************************************************************/
 版本回退
 git reset --hard HEAD^
