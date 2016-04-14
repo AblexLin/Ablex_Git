@@ -23,7 +23,8 @@
  git push -u origin master                                          -- 更新全部到github第一次用
  git push origin master                                             -- 更新推送到github
  git clone git@github.com:AblexLin/Ablex_Git.git                    -- 从远程仓库拷贝到本地
- 
+ git remote -v                                                      -- 显示当前关联远程仓库信息
+
  *** git 分支管理  ***
  git checkout -b filename -- 新建分支并切换到对应分支可以使用git branch/git status查看分支指向
    git branch branchname 创建分支
