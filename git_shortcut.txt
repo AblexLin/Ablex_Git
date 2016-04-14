@@ -62,6 +62,11 @@
  git tag                                        -- 查看已有到标签
  git show                                       -- 查看标签的内容
  git tag commit_id                              -- 指定版本号打标签    
+ git tag -d <tagname>                           -- 删除标签
+ git push origin <tagname>                      -- 推送指定标签到远程仓库
+ git push origin --tags                         -- 推送全部标签到远程仓库
+ PS:本地的标签在push的时候不会自动push到远程仓库所有可以直接在本地删除
+ ps:已经push到远程的标签必须先删除本地的标签，然后再执行git push origin :refs/tags/v0.9去删除
 
  /--------分--------隔--------符--------/
  
