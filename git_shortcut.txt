@@ -82,6 +82,11 @@
  git config --global user.name "Your Name"
  git config --global user.email you@example.com
 
+ *** Finder设置全文件夹可见  ***
+ defaults write com.apple.finder AppleShowAllFiles TRUE
+ killall Finder
+ *** Finder设置全文件夹可见  ***
+
  /--------分--------隔--------符--------/
  
  *** vi编辑器使用常用快捷键***
