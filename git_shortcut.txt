@@ -55,9 +55,17 @@
  2.文件已经被add但是还没有commit的时候执行，需要先执行git reset HEAD file将文件从
  stage中退回到本地，再执行git checkout -- file就能够撤销修改了
  
+ *** 使用标签  ***
+ git tag v1.0                                   -- 创建一个标签，默认指向最新的提交
+ git tag -a <tagname> -m "blablabla..."         -- 创建标签并添加注释
+ git tag -s <tagname> -m "blablabla..."         -- 带有pgp签名的标签，需要装有pgp才可以使用
+ git tag                                        -- 查看已有到标签
+ git show                                       -- 查看标签的内容
+ git tag commit_id                              -- 指定版本号打标签    
+
  /--------分--------隔--------符--------/
  
-*** vi编辑器使用常用快捷键***
+ *** vi编辑器使用常用快捷键***
  :w                -- 保存文件但不退出vi
  :w file           -- 将修改另外保存到file中，不退出vi
  :w!               -- 强制保存，不推出vi
