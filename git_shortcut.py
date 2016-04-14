@@ -25,6 +25,7 @@ git checkout -b filename -- 新建分支并切换到对应分支可以使用git 
   git branch branchname 创建分支
   git checkout branchname 切换到分支
 git merge branchname  -- 合并分支到master上面去(合并的时候，当前必须在master分支上才能合并)
+git merge --no-ff -m "注释" branchname --不适应fast forward方式合并分支，使用普通方式合并，合并后历史有分支，能够看出来曾经合并过！
 git branch -d branchname -- 删除分支
 
 /******************************************************************************/
