@@ -20,14 +20,20 @@ git add .         -- 将所有的修改都提交到stage
 ssh-keygen -t rsa -C "youremail@example.com" -- 创建SSH key
 git push origin master -- 更新推送到github
 git clone git@github.com:AblexLin/Ablex_Git.git 从远程仓库拷贝到本地
-
+/************************************
 git checkout -b filename -- 新建分支并切换到对应分支可以使用git branch/git status查看分支指向
   git branch branchname 创建分支
   git checkout branchname 切换到分支
 git merge branchname  -- 合并分支到master上面去(合并的时候，当前必须在master分支上才能合并)
 git merge --no-ff -m "注释" branchname --不适应fast forward方式合并分支，使用普通方式合并，合并后历史有分支，能够看出来曾经合并过！
 git branch -d branchname -- 删除分支
-
+/***********************************
+git stash          -- 保存当前的副本，让副本状态变成未修改到样子
+git stash list     -- 查看之前保存的有多少
+git stash apply    -- 恢复之前保存的stash，但是不会删除stash中的备份
+git stash pop      -- 恢复之前保存的stash，并删除stash中的备份
+git stash drop     -- 在使用了apply后可以使用这个drop来删除stash中的备份文件，按照堆栈方式删除
+git stash apply stash@{0} -- 可以指定恢复哪一个备份的副本
 /******************************************************************************/
 版本回退
 git reset --hard HEAD^
