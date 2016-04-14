@@ -24,7 +24,7 @@ git clone git@github.com:AblexLin/Ablex_Git.git 从远程仓库拷贝到本地
 git checkout -b filename -- 新建分支并切换到对应分支可以使用git branch/git status查看分支指向
   git branch branchname 创建分支
   git checkout branchname 切换到分支
-git merge branchname  -- 合并分支到master上面去
+git merge branchname  -- 合并分支到master上面去(合并的时候，当前必须在master分支上才能合并)
 git branch -d branchname -- 删除分支
 
 /******************************************************************************/
