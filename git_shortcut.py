@@ -27,6 +27,7 @@ git checkout -b filename -- 新建分支并切换到对应分支可以使用git 
 git merge branchname  -- 合并分支到master上面去(合并的时候，当前必须在master分支上才能合并)
 git merge --no-ff -m "注释" branchname --不适应fast forward方式合并分支，使用普通方式合并，合并后历史有分支，能够看出来曾经合并过！
 git branch -d branchname -- 删除分支
+git branch -D branchname -- 删除未合并的分支，强制删除
 /***********************************
 git stash          -- 保存当前的副本，让副本状态变成未修改到样子
 git stash list     -- 查看之前保存的有多少
