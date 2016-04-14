@@ -68,6 +68,15 @@
  PS:本地的标签在push的时候不会自动push到远程仓库所有可以直接在本地删除
  ps:已经push到远程的标签必须先删除本地的标签，然后再执行git push origin :refs/tags/v0.9去删除
 
+ *** 别名设置  ***
+ git config --global alias.st status
+ git config --global alias.co checkout
+ git config --global alias.ci commit
+ git config --global alias.br branch
+ git config --global alias.unstage 'reset HEAD'
+ git config --global alias.last 'log -1' 
+ git config --global alias.lg "log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
+
  /--------分--------隔--------符--------/
  
  *** vi编辑器使用常用快捷键***
