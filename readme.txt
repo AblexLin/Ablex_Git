@@ -1,3 +1,1 @@
-Creating a new branch is quick and simple.
-add merge is insteresting!
-随便把！
+i am git one!
