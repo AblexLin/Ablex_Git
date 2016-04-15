@@ -21,6 +21,7 @@
  git branch -dr    -- 删除remote上的分支
 
  *** git 仓库管理  ***
+ *** 如果在本地建立好文件夹和文件，想要上传到远程仓库，必要条件说远程仓库说空的，本地的.git文件是刚刚生成到不可以在有文件的时候push肯定会失败的***
  git remote add origin git@github.com:AblexLin/Ablex_Git.git        -- 关联到远程仓库
  ssh-keygen -t rsa -C "youremail@example.com"                       -- 创建SSH key
  git push -u origin master                                          -- 更新全部到github第一次用
