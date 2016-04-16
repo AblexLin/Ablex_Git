@@ -11,6 +11,7 @@
  git log           -- 查看日志  
  git log --pretty=oneline -- 单行显示日志
  git log --graph --pretty=oneline --abbrev-commit  -- 能够查看到合并分支情况的查看日志方法
+ git log -p -1     -- 查看上次代码修改的内容
  git reflog        -- 查看所有的行为
  cat file          -- 查看文件内容
  git diff HEAD -- file -- 查看当前版本和服务器最新版本的差异 
